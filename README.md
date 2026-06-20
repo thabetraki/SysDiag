@@ -1,87 +1,63 @@
 # SysDiag v4
 
-A modern Windows diagnostic and repair tool with an integrated AI assistant.
+**Suite professionnelle de diagnostic et de réparation Windows**
 
-## Features
+SysDiag v4 est un outil avancé de diagnostic et d'optimisation Windows conçu pour aider les utilisateurs à identifier, analyser et réparer rapidement les problèmes système, depuis une interface unique et moderne.
 
-* System diagnostics (CPU, RAM, Disk, Network)
-* Windows Update analysis
-* Built-in repair commands
-* Integrated PowerShell terminal
-* AI Assistant support:
+## Fonctionnalités clés
 
-  * Anthropic Claude
-  * Google Gemini
-  * Local AI mode
-* Modern Tkinter user interface
-* System health monitoring
-* Diagnostic report export
+✅ Diagnostic système complet (CPU, RAM, Disque, Réseau)
+✅ Analyse et réparation de Windows Update
+✅ Outils de réparation automatisée
+✅ Terminal PowerShell / CMD intégré
+✅ Assistant IA d'aide au dépannage (en ligne ou en mode local)
+✅ Surveillance système en temps réel
+✅ Rapports de diagnostic détaillés (export .txt)
+✅ Interface moderne et conviviale
 
-## Screenshots
+## Pour qui ?
 
-Add screenshots of the application here.
+- Techniciens informatiques
+- Ateliers de réparation
+- Administrateurs systèmes
+- Utilisateurs avancés
+- Petites entreprises
 
-## Requirements
+## Bénéfices
 
-* Windows 10 / Windows 11
-* Python 3.10+
-* Internet connection (for AI features)
+- Réduit le temps de dépannage
+- Automatise les réparations courantes
+- Améliore la stabilité du système
+- Centralise les outils de diagnostic
+- Recommandations générées par IA (optionnel)
 
-## Installation
+## Assistant IA — fonctionnement
 
-Clone the repository:
+SysDiag intègre un assistant IA optionnel qui peut s'appuyer sur **deux moteurs IA en ligne** au choix, ou fonctionner en **mode local** (sans connexion ni clé) avec des recommandations préconfigurées.
 
-```bash
-git clone https://github.com/yourusername/SysDiag.git
-cd SysDiag
-```
+> ⚠️ **Important** : SysDiag ne fournit aucune clé API et ne facture aucun usage IA. Pour activer un moteur en ligne, l'utilisateur doit créer son propre compte chez le fournisseur de son choix et renseigner sa propre clé API dans **Paramètres**. L'utilisation de ces services en ligne dépend des conditions tarifaires et d'utilisation du fournisseur concerné, indépendantes de SysDiag.
 
-Install dependencies:
+Sans clé API renseignée, l'assistant fonctionne entièrement en mode local.
 
-```bash
-pip install psutil requests
-```
+## Captures d'écran
 
-Run the application:
+*(à ajouter)*
 
-```bash
-python SysDiag_v4.py
-```
+## Configuration requise
 
-## Usage
+- Windows 10 / 11
+- Python 3.10+ (version développeur) — ou l'exécutable autonome `.exe`
+- Connexion Internet (uniquement si un moteur IA en ligne est activé)
 
-1. Launch SysDiag.
-2. Click **Run Diagnostic**.
-3. Review detected issues.
-4. Use repair tools to fix problems.
-5. Ask the AI assistant for recommendations.
-6. Export reports when needed.
+## Licence
 
-## AI Configuration
+SysDiag v4 est un logiciel commercial.
 
-To use Claude:
+Copyright © 2026 Thabet Raki. Tous droits réservés.
 
-* Create an API key from Anthropic.
-* Open Settings in SysDiag.
-* Enter your API key.
+Toute copie, modification, distribution ou revente sans autorisation écrite préalable de l'auteur est interdite.
 
-To use Gemini:
+## Contact
 
-* Create an API key from Google AI Studio.
-* Open Settings in SysDiag.
-* Enter your API key.
-
-## Technologies
-
-* Python
-* Tkinter
-* Psutil
-* Requests
-* PowerShell
-* Windows APIs
-
-## License
-
-This project is licensed under the GNU General Public License v3.0 (GPLv3).
-
-Copyright (C) 2026 Thabet Raki
+**Développeur** : Thabet Raki
+Pour toute question de licence, support ou demande commerciale, merci de contacter le développeur.
